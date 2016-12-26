@@ -5,12 +5,23 @@ And the code comes from `this repository <https://github.com/matthewearl/faceswa
 
 Limitation:
 
-    * Could only be used with 2 pictures.
-    * There must be one and only one human face in each picture.
-    * High resolution pictures are recommonded.
-    * No glasses or hairs cover the face.
+* Could only be used with 2 pictures.
+* There must be one and only one human face in each picture.
+* High resolution pictures are recommonded.
+* No glasses or hairs cover the face.
 
 Usage::
 
     docker run -it --volume /folder/of/image:/images kxxoling/faceswap ./faceswap.py 1.jpg 2.jpg
 
+Final achievement：
+
+.. image:: final.jpg
+   :alt: faceswap final achievement
+   :align: center
+
+Another example:
+
+.. image:: trumpary.jpg
+   :alt: faceswap Hillary Clinton Donald Trump -- Trumpary
+   :align: center
